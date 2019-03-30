@@ -1,5 +1,5 @@
 # Extended Kalman Filter Example
-This is an simple implementation of the EKF over the bicycle model (aka Ackermann steering model).
+This is an simple implementation of the EKF over the bicycle model (aka Ackermann steering model) written in M
 
 Ackerman steering model is the next:
 
@@ -13,3 +13,5 @@ theta is the orientation of the vehicle
 v is the speed of the vehicle
 phi is the steering wheel angle
 and L is the wheel base
+
+In which you can measure the position of the vehicle and the speed, writted in MATLAB scripting language.
