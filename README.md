@@ -1,4 +1,4 @@
-# ExtendedKalmanFilterExample
+# Extended Kalman Filter Example
 This is an simple implementation of the EKF over the bicycle model (aka Ackermann steering model).
 
 Ackerman steering model is the next:
