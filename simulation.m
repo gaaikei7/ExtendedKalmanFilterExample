@@ -139,7 +139,6 @@ xint = linspace(0,2,100)';
 plot(x,y,'o',xint,(xint.^(1:4))*C,'r-')
 
 y = C(1)*x + C(2)*x.^2 + C(3)*x.^3 + C(4)*x.^4
-
 spl = spline(x,y);
 figure()
 plot(x,y,'o',xint,ppval(spl,xint),'r-')
